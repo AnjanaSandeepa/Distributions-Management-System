@@ -1,0 +1,272 @@
+# depslib dependency file v1.0
+1665311765 source:e:\distributors transaction management system\login.c
+
+1665382948 source:e:\distributors transaction management system\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
+1664820772 source:e:\distributors transaction management system\int_validation.c
+
+1668690411 source:e:\distributors transaction management system\menu.c
+
+1664790218 source:e:\distributors transaction management system\struct.c
+
+1665382718 source:e:\distributors transaction management system\stock.c
+	<stdio.h>
+	<stdlib.h>
+
+1668069003 source:e:\distributors transaction management system\load.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+
+1668696445 source:e:\distributors transaction management system\unload.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+
+1665542249 source:e:\distributors transaction management system\report.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1668696523 source:e:\distributors transaction management system\additional.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+
+1665094111 source:e:\distributors transaction management system\sales.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
+1665541127 source:e:\distributors transaction management system\vehicle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
+1665307164 e:\distributors transaction management system\additional.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1665307789 source:e:\distributors transaction management system\stocks.c
+	<stdio.h>
+	<stdlib.h>
+
+1668696628 source:e:\distributors transaction management system\unloading.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+
+1673972641 source:c:\users\sande\onedrive\desktop\distributors transaction management system\additional.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+	<ctype.h>
+
+1673881728 source:c:\users\sande\onedrive\desktop\distributors transaction management system\load.c
+	<stdio.h>
+	<stdlib.h>
+
+1673851584 source:c:\users\sande\onedrive\desktop\distributors transaction management system\login.c
+	<stdio.h>
+	<stdlib.h>
+
+1673750713 source:c:\users\sande\onedrive\desktop\distributors transaction management system\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1673921570 source:c:\users\sande\onedrive\desktop\distributors transaction management system\menu.c
+
+1673928290 source:c:\users\sande\onedrive\desktop\distributors transaction management system\report.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1668779166 source:c:\users\sande\onedrive\desktop\distributors transaction management system\sales.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
+1674018088 source:c:\users\sande\onedrive\desktop\distributors transaction management system\stock.c
+	<stdio.h>
+	<stdlib.h>
+
+1664790218 source:c:\users\sande\onedrive\desktop\distributors transaction management system\struct.c
+
+1673922716 source:c:\users\sande\onedrive\desktop\distributors transaction management system\unload.c
+	<stdio.h>
+	<stdlib.h>
+
+1665541127 source:c:\users\sande\onedrive\desktop\distributors transaction management system\vehicle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
+1668697034 source:c:\users\sande\onedrive\desktop\distributors transaction management system\unloading.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+
+1669699009 source:c:\users\sande\onedrive\desktop\distributors transaction management system\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<time.h>
+	<windows.h>
+	<stdbool.h>
+	<string.h>
+	<conio.h>
+
+1673928290 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\report.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1673972641 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\additional.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+	<ctype.h>
+
+1673851584 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\login.c
+	<stdio.h>
+	<stdlib.h>
+
+1673921570 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\menu.c
+
+1673881728 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\load.c
+	<stdio.h>
+	<stdlib.h>
+
+1673929261 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\stock.c
+	<stdio.h>
+	<stdlib.h>
+
+1673922716 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\unload.c
+	<stdio.h>
+	<stdlib.h>
+
+1673750713 source:c:\users\sande\downloads\distributors transaction management system 2\distributors transaction management system 2\distributors transaction management system 1\distributors transaction management system\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1673972641 source:e:\my_project\distributors transaction management system\additional.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+	<ctype.h>
+
+1673881728 source:e:\my_project\distributors transaction management system\load.c
+	<stdio.h>
+	<stdlib.h>
+
+1673851584 source:e:\my_project\distributors transaction management system\login.c
+	<stdio.h>
+	<stdlib.h>
+
+1673750713 source:e:\my_project\distributors transaction management system\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1673921570 source:e:\my_project\distributors transaction management system\menu.c
+
+1674058216 source:e:\my_project\distributors transaction management system\report.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1674018088 source:e:\my_project\distributors transaction management system\stock.c
+	<stdio.h>
+	<stdlib.h>
+
+1673922716 source:e:\my_project\distributors transaction management system\unload.c
+	<stdio.h>
+	<stdlib.h>
+
+1673972641 source:e:\my_project\distributions management system\additional.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+	<ctype.h>
+
+1673881728 source:e:\my_project\distributions management system\load.c
+	<stdio.h>
+	<stdlib.h>
+
+1673851584 source:e:\my_project\distributions management system\login.c
+	<stdio.h>
+	<stdlib.h>
+
+1673750713 source:e:\my_project\distributions management system\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1673921570 source:e:\my_project\distributions management system\menu.c
+
+1674058216 source:e:\my_project\distributions management system\report.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1674018088 source:e:\my_project\distributions management system\stock.c
+	<stdio.h>
+	<stdlib.h>
+
+1673922716 source:e:\my_project\distributions management system\unload.c
+	<stdio.h>
+	<stdlib.h>
+
