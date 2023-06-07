@@ -338,22 +338,22 @@ void unloading()
             for(int j=0; j< k; j++)
             {
                 //check salesman id, item id in salesman details and load details
-                if(strcmp(load_details.salesman_name,unloadDitails[j].salesman_name)==0 && load_details.item_id==unloadDitails[j].item_id )
+                if(strcmp(loadDetails[n].salesman_name,unloadDitails[j].salesman_name)==0 && loadDetails[n].item_id==unloadDitails[j].item_id )
                 {
                     //calculate the the quantity by deducting unloading quantity by loading quantity
-                    sell_details.quantity = load_details.quantity - unloadDitails[j].quantity;
+                    sell_details.quantity = loadDetails[n].quantity - unloadDitails[j].quantity;
                 }
                 else
                 {
                     //otherwise, quantity is same
-                    sell_details.quantity = load_details.quantity;
+                    sell_details.quantity = loadDetails[n].quantity;
                 }
             }
             //calculate sub total
-            subtotal=sell_details.quantity*load_details.price;
+            subtotal=sell_details.quantity*loadDetails[n].price;
 
             //sales details saved to sales file
-            fprintf(sales,"%d %d %d %s %d %s %lf %d %lf\n",load_details.year,load_details.month,load_details.day, load_details.salesman_name,load_details.item_id,load_details.item_name,load_details.price,sell_details.quantity,subtotal);
+            fprintf(sales,"%d %d %d %s %d %s %lf %d %lf\n",loadDetails[n].year,loadDetails[n].month,loadDetails[n].day, loadDetails[n].salesman_name,loadDetails[n].item_id,loadDetails[n].item_name,loadDetails[n].price,sell_details.quantity,subtotal);
         }
         //close the sales files
         fclose(sales);
