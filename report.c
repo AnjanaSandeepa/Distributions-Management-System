@@ -580,7 +580,7 @@ void progress_of_item()
         printf("\n              |    Item id    |   item name   | Total quantity |");
         printf("\n              |_______________|_______________|________________|");
 
-        for (i = 0; i < stock_count; i++)
+        for (i = 0; i < n; i++)
         {
             printf("\n              |%10d     |%10s     |  %10.0d    |", item_data[i].item_id, item_data[i].item_name, item_data[i].quantity);
         }
@@ -622,11 +622,13 @@ void progress_of_item()
 
         printf("\n\n\t progress of a item in graph");
 
-        printf("\n\n\n\t    0            25            50            75           100");
-        printf("\n            \xDA\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\x3E  PERCENTAGE");
+        printf("\n\n\t                                                                                                   PERCENTAGE(%%)\n");
+        printf("\n\t    00                      25                      50                      75                     100");
+        printf("\n            \xDA\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\x3E");
 
 
-        for (int i = 0; i< stock_count; i++)
+
+        for (int i = 0; i< n; i++)
         {
             printf("\n %10s \xB3",item_data[i].item_name);
 
@@ -636,7 +638,7 @@ void progress_of_item()
             //calculate the percentage of quantity
             for (int j = 0; j < v*100; j++)
             {
-                printf("\xb2");
+                printf("%c",219);
             }
             printf("\n            \xB3");
         }
@@ -773,6 +775,7 @@ void progress_of_salesman()
             n++;
         }
         total_subtotal = total_subtotal + selesDetails[m].subtotal;
+
     }
 
      system("cls");
@@ -847,7 +850,7 @@ void progress_of_salesman()
         system("COLOR 06");
 
         printf("\n                               ***********************************");
-        printf("\n                               *       progress of a salesman        *");
+        printf("\n                               *       progress of a salesman    *");
         printf("\n                               ***********************************");
 
         printf("\n\n progress of a salesman in graph ...");
@@ -866,7 +869,7 @@ void progress_of_salesman()
             //calculate the percentage of quantity
             for (int j = 0; j < percentage*100; j++)
             {
-                printf("\xb2");
+                printf("%c",219);
             }
             printf("\n            \xB3");
         }

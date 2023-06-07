@@ -24,9 +24,7 @@ void input_item(char *input_item_name[itemName_size], double *input_price, int *
     add_itemName_again:
 
     printf("   * Enter the ITEM name             :");
-    scanf("%s",&input_item_name);
-    *item_name = input_item_name;
-
+    scanf("%s",input_item_name);
 
     /**< ---------  item name validation  ------------ */
 
@@ -41,7 +39,7 @@ void input_item(char *input_item_name[itemName_size], double *input_price, int *
     rewind(stock);
     while(fscanf(stock,"%d %s %lf %d",&stock_details.item_id,stock_details.item_name,&stock_details.price,&stock_details.quantity)!=EOF)
     {
-        if(strcmp(item_name,stock_details.item_name))
+        if(!strcmp(input_item_name,stock_details.item_name))
         {
             printf("\n\t this item name early day exist.\n\n");
 
