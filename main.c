@@ -42,7 +42,6 @@ void file_remover(const char *filename, const FILE *file);
 //main function
 int main()
 {
-    report_menu();
 
     //Call the get_date function to set a date to the global variable
     get_date(&YEAR, &MONTH, &DAY);
